@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-const errMsg = "cant convert to %v"
+const errMsg = "numcon: can't convert to %v"
 
 func bigInt(n interface{}) (int64, error) {
 	switch val := n.(type) {
